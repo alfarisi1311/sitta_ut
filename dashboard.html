@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dashboard - SITTA Universitas Terbuka</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="footer.css">
+</head>
+<body class="dashboard-bg">
+  
+  <!-- Header -->
+  <header class="main-header">
+    <div class="header-left">
+      <img src="img/logo_ut.png" alt="Logo UT" class="logo-header" />
+      <h1 class="header-title">SITTA – Universitas Terbuka</h1>
+    </div>
+    <div id="greeting" class="header-greeting"></div>
+  </header>
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <nav>
+      <ul>
+        <li><a href="dashboard.html" class="active">🏠 Beranda</a></li>
+        <li><a href="stok.html">📚 Informasi Bahan Ajar</a></li>
+        <li><a href="tracking.html">🚚 Tracking Pengiriman</a></li>
+        <li><a href="#">📊 Laporan</a></li>
+        <li><a href="#">🕓 Histori Transaksi</a></li>
+        <li><a href="index.html">🚪 Log out</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <!-- Konten Utama -->
+  <main class="content">
+    <section class="welcome">
+      <h2>Selamat Datang di Sistem Informasi SITTA</h2>
+      <p>Gunakan menu di kiri untuk mengakses berbagai fitur pengelolaan bahan ajar.</p>
+    </section>
+
+    <section class="card-grid">
+      <article class="card-menu">
+        <h3>📚 Informasi Bahan Ajar</h3>
+        <p>Lihat data stok, edisi, dan jenis bahan ajar UT.</p>
+        <a href="stok.html" class="btn primary">Buka</a>
+      </article>
+
+      <article class="card-menu">
+        <h3>🚚 Tracking Pengiriman</h3>
+        <p>Lacak status dan detail pengiriman DO Anda.</p>
+        <a href="tracking.html" class="btn primary">Lacak</a>
+      </article>
+
+      <article class="card-menu">
+        <h3>📊 Laporan</h3>
+        <p>Cetak laporan monitoring dan distribusi.</p>
+        <a href="#" class="btn primary">Lihat</a>
+      </article>
+
+      <article class="card-menu">
+        <h3>🕓 Histori Transaksi</h3>
+        <p>Tinjau histori dan aktivitas pengiriman.</p>
+        <a href="#" class="btn primary">Buka</a>
+      </article>
+    </section>
+  </main>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+
+  <footer class="site-footer" role="contentinfo" aria-label="Footer situs">
+  <div class="footer-container">
+    <p>© 2025 Universitas Terbuka — SITTA Platform | Dibuat Oleh Moh Alfarisi Maulana</p>
+  </div>
+</footer>
+
+</body>
+</html>
